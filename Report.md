@@ -1,8 +1,12 @@
 # Introduction: 
-Problem is to find out the severity of the accident and the probability of occurrence of accident based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley). Depending upon the severity and the probability, the recommended speeds could be tuned to the conditions and then suggested to the drivers. This could be used to suggest the max speed that could be achieved with keeping the probability and the severity at minimum.
+Problem is to find out the probability of occurrence of accident and the severity of the accident, based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley).
+
+This model would help the drivers to maintain the safe speed while driving, depending upon the realtime conditions, keeping the probability and the severity at minimum. Depending upon the severity and the probability, the recommended speeds could be tuned to the conditions and then suggested to the drivers.
 
 # Data:
-The accident dataset which has been provided in the last week, is being used here. The features being used in this model are: ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
+The accident [dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) which has been provided in this course in week1, is being used here. 
+
+The features being used in this model are: ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
 
 Head of the training data:
 
@@ -10,4 +14,25 @@ Head of the training data:
 ![](dta.png)
 
 
-This data would be encoded using one hot encoding, for classification and a separate column would be created for each category in every independent column.
+This data would be encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
+
+Those categories would be 
+
+Feature: WEATHER
+Categories: 10
+'Overcast' 'Raining' 'Clear' 'Snowing' 'Other' 'Fog/Smog/Smoke' 'Sleet/Hail/Freezing Rain' 'Blowing Sand/Dirt' 'Severe Crosswind' 'Partly Cloudy'
+
+Feature: ROADCOND
+Categories: 8
+'Wet' 'Dry' 'Snow/Slush' 'Ice' 'Other' 'Sand/Mud/Dirt' 'Standing Water' 'Oil'
+
+Feature: LIGHTCOND
+Categories: 8
+'Daylight' 'Dark - Street Lights On' 'Dark - No Street Lights' 'Dusk' 'Dawn' 'Dark - Street Lights Off' 'Other' 'Dark - Unknown Lighting'
+
+Feature: ADDRTYPE
+Categories: 3
+'Intersection' 'Block' 'Alley'
+
+In the end, the dataframe would consist 169781 samples and 26 features(26,as one category is being dropped from every primary feature because every other category in that particular primary feature being zero would represent the dropped category and this would decraese the runtime of the model).
+
