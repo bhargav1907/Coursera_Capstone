@@ -39,3 +39,7 @@ Categories: 3
 
 In the end, the dataframe consists of 169781 samples and 26 features(26,as one category is being dropped from every primary feature because every other category in that particular primary feature being zero would represent the dropped category and this would decraese the runtime of the model).
 
+Head of the final dataframe:(could only show some features as it contains many features)
+
+
+![](dta1.png)
