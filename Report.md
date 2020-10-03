@@ -4,6 +4,8 @@ Problem is to find out the severity of the accident and the probability of occur
 # Data:
 The accident dataset which has been provided in the last week, is being used here. The features being used in this model are: ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
 
-Head of the training data:
-![](dta.png)
+
+![Head of the training data:](dta.png)
+
+
 This data would be encoded using one hot encoding, for classification and a separate column would be created for each category in every independent column.
