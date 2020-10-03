@@ -18,20 +18,20 @@ This data would be encoded using one hot encoding, for classification and a sepa
 
 Those categories would be 
 
-Feature: WEATHER 
-Categories: 10
+Feature: WEATHER  
+Categories: 10  
 'Overcast' 'Raining' 'Clear' 'Snowing' 'Other' 'Fog/Smog/Smoke' 'Sleet/Hail/Freezing Rain' 'Blowing Sand/Dirt' 'Severe Crosswind' 'Partly Cloudy'
 
 Feature: ROADCOND  
 Categories: 8  
 'Wet' 'Dry' 'Snow/Slush' 'Ice' 'Other' 'Sand/Mud/Dirt' 'Standing Water' 'Oil'
 
-Feature: LIGHTCOND
-Categories: 8
+Feature: LIGHTCOND  
+Categories: 8  
 'Daylight' 'Dark - Street Lights On' 'Dark - No Street Lights' 'Dusk' 'Dawn' 'Dark - Street Lights Off' 'Other' 'Dark - Unknown Lighting'
 
-Feature: ADDRTYPE
-Categories: 3
+Feature: ADDRTYPE  
+Categories: 3  
 'Intersection' 'Block' 'Alley'
 
 In the end, the dataframe would consist 169781 samples and 26 features(26,as one category is being dropped from every primary feature because every other category in that particular primary feature being zero would represent the dropped category and this would decraese the runtime of the model).
