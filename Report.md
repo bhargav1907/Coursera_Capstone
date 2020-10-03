@@ -1,5 +1,5 @@
 # Introduction: 
-Accidents keep happening everyday and some of them which happen due to the weather conditions could be avoided if the driver was alerted to maintain a safe speed depending upon the realtime conditions.
+Accidents keep happening everyday and some of them which happen due to the surrounding conditions of the vehicle could be avoided if the driver was alerted to maintain a safe speed depending upon the realtime conditions.
 
 Problem is to find out the probability of occurrence of an accident and the severity of it, based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley). These features would be used to create a classifier that would classify the severity of an accident and gives the probability of the occurance of that accident.
 
