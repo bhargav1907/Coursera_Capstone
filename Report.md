@@ -1,12 +1,12 @@
 # Introduction: 
 Accidents keep happening everyday and some of them which happen due to the weather conditions could be avoided if the driver was alerted to maintain a safe speed depending upon the realtime conditions.
 
-Problem is to find out the probability of occurrence of accident and the severity of the accident, based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley). These features would be used to create a classifier that would classify the severity of the accidnet and give the probability of that severity.
+Problem is to find out the probability of occurrence of an accident and the severity of it, based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley). These features would be used to create a classifier that would classify the severity of an accident and gives the probability of the occurance of that accident.
 
 This model would help the drivers to maintain the safe speed while driving, depending upon the realtime conditions, keeping the probability and the severity at minimum. Depending upon the severity and the probability, the recommended speeds could be tuned to the conditions and then suggested to the drivers.
 
 # Data Pre-processing:
-The accident [dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) which has been provided in this course in week1, is being used here. 
+The [accident dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) which has been provided in this course in week1, is being used here. This dataset contains the accidents happened in Seattle,which were recorded by the SPD.
 
 New dataframe is created with only the features being used in the model, which are
 ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
