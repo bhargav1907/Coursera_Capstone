@@ -8,7 +8,8 @@ This model would help the drivers to maintain the safe speed while driving, depe
 # Data:
 The accident [dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) which has been provided in this course in week1, is being used here. 
 
-The features being used in this model are: ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
+New dataframe is created with only the features being used in the model, which are
+’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
 
 Head of the training data:
 
@@ -16,9 +17,9 @@ Head of the training data:
 ![](dta.png)
 
 
-This data would be encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
+This data is then encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
 
-Those categories would be 
+Those categories are 
 
 Feature: WEATHER  
 Categories: 10  
@@ -36,5 +37,5 @@ Feature: ADDRTYPE
 Categories: 3  
 'Intersection' 'Block' 'Alley'
 
-In the end, the dataframe would consist 169781 samples and 26 features(26,as one category is being dropped from every primary feature because every other category in that particular primary feature being zero would represent the dropped category and this would decraese the runtime of the model).
+In the end, the dataframe consists of 169781 samples and 26 features(26,as one category is being dropped from every primary feature because every other category in that particular primary feature being zero would represent the dropped category and this would decraese the runtime of the model).
 
