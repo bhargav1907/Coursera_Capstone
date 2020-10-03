@@ -5,7 +5,7 @@ Problem is to find out the probability of occurrence of accident and the severit
 
 This model would help the drivers to maintain the safe speed while driving, depending upon the realtime conditions, keeping the probability and the severity at minimum. Depending upon the severity and the probability, the recommended speeds could be tuned to the conditions and then suggested to the drivers.
 
-# Data:
+# Data Pre-processing:
 The accident [dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv) which has been provided in this course in week1, is being used here. 
 
 New dataframe is created with only the features being used in the model, which are
