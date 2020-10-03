@@ -5,6 +5,8 @@ Problem is to find out the severity of the accident and the probability of occur
 The accident dataset which has been provided in the last week, is being used here. The features being used in this model are: ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
 
 Head of the training data:
+
+
 ![](dta.png)
 
 
