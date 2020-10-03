@@ -18,8 +18,8 @@ This data would be encoded using one hot encoding, for classification and a sepa
 
 Those categories would be 
 
-Feature: WEATHER /n
-Categories: 10
+Feature: WEATHER 
+/n Categories: 10
 'Overcast' 'Raining' 'Clear' 'Snowing' 'Other' 'Fog/Smog/Smoke' 'Sleet/Hail/Freezing Rain' 'Blowing Sand/Dirt' 'Severe Crosswind' 'Partly Cloudy'
 
 Feature: ROADCOND
