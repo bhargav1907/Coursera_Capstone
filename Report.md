@@ -43,3 +43,8 @@ Head of the final dataframe:(could only show some features as it contains many f
 
 
 ![](dta1.png)
+
+
+# EDA:
+As you can see accidents are at peak in the morining and the eveining as that's when most of the people go to work and back to home. Those are the busiest times in the day.
+
