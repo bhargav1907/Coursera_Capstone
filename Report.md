@@ -16,8 +16,8 @@ Then the samples with NaN and 'Unknown' values are dropped from the dataframe re
 Head of the training data:
 
 
-![align="center"](dta.png)
-<img align="center",src="dta.png">
+![](dta.png)
+
 
 This data is then encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
 
@@ -61,5 +61,6 @@ DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian 
 
 DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
 
+Logistic Regression was performed with 'liblinear' solver and with a 0.01 value of C.
 
-![](dta3.png)
+![](dta2.png)
