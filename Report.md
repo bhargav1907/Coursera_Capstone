@@ -11,6 +11,8 @@ The [accident dataset](https://s3.us.cloud-object-storage.appdomain.cloud/cf-cou
 New dataframe is created with only the features being used in the model, which are
 ’SEVERITYCODE','WEATHER','ROADCOND','LIGHTCOND','ADDRTYPE'
 
+Then the samples with NaN and 'Unknown' values are dropped from the dataframe resulting in the the dataframe with 169781 samples.
+
 Head of the training data:
 
 
