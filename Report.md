@@ -17,7 +17,7 @@ Head of the training data:
 
 
 ![align="center"](dta.png)
-<div style="text-align:center"><img src=dta.png /></div>
+<img align="center" src=dta.png>
 
 This data is then encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
 
