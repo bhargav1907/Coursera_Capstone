@@ -52,3 +52,14 @@ As you can see accidents are at peak in the morining and the eveining as that's 
 
 
 ![](dta2.png)
+
+
+# Methodology:
+Classification is being used here to predict the severity of the accident(1,2) based on the one hot encodeded features.
+80 percennt of the samples are being used to train the model and split was done by train_test_split from sklearn library.
+DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian Naive Bayes algorithms from sklearn library are being used here.
+
+DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
+
+
+![](dta2.png)
