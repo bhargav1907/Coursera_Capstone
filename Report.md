@@ -61,6 +61,17 @@ DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian 
 
 DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
 
+# Results:
 Logistic Regression was performed with 'liblinear' solver and with a 0.01 value of C.
 
-![](dta2.png)
+Performance of classification models: The best models(based on their performances) are labeled in red.
+
+![](dta_3.png)
+
+
+
+# Conclusion:
+In this capstone project, the odds of happening of an accident were analysed using the surrounding conditions such as road condition, weather conditions. The classification models are being used here inorder to calculate the odds of an accident and it's severity. The model would make the drivers think twice before speeding in dangerous conditions as they would be alerted by the odds of an accident.
+
+# Future Directions:
+The model could be trained and developed to be more accurate with providing more useful features such as speeding which was almost full of Nan values in the provided dataset. The speed could be added as a feature and safer speeds could be suggested inorder to prevent any acciednt,based on the speeds at which the accidents previously occured.
