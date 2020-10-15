@@ -63,4 +63,4 @@ DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data a
 
 Logistic Regression was performed with 'liblinear' solver and with a 0.01 value of C.
 
-![](dta3.png)
+![](dta2.png)
