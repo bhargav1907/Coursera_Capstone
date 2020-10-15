@@ -59,9 +59,11 @@ Classification is being used here to predict the severity of the accident(1,2) b
 80 percennt of the samples are being used to train the model and split was done by train_test_split from sklearn library.
 DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian Naive Bayes algorithms from sklearn library are being used here.
 
-DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
+DecisionTree Classsifier with a max depth of 3 - 15 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
 
 # Results:
+DecisionTree Classsifier was the most accurate model with accuracy of 67.1% and with least log loss of 0.6177
+
 Logistic Regression was performed with 'liblinear' solver and with a 0.01 value of C.
 
 Performance of classification models: The best models(based on their performances) are labeled in red.
