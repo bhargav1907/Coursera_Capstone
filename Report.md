@@ -62,4 +62,4 @@ DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian 
 DecisionTree Classsifier with a max depth of 1 - 10 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
 
 
-![](dta2.png)
+![](dta3.png)
