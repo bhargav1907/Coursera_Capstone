@@ -16,7 +16,7 @@ Then the samples with NaN and 'Unknown' values are dropped from the dataframe re
 Head of the training data:
 
 
-![](dta.png)
+![](dta.png,align="center")
 
 
 This data is then encoded using one hot encoding, for classification and a separate feature would be created for each category in every primary feature.
