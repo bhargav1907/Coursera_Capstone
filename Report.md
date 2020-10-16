@@ -66,7 +66,7 @@ DecisionTree Classsifier was the most accurate model with accuracy of 67.1% and 
 
 Logistic Regression was performed with 'liblinear' solver and with a 0.01 value of C.
 
-Performance of classification models: The best models(based on their performances) are labeled in red.
+Performance of classification models: The best models(based on their performances) are labelled in red.
 
 ![](dta_3.png)
 
