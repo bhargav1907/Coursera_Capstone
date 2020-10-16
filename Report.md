@@ -1,7 +1,7 @@
 # Introduction: 
 Accidents keep happening everyday and some of them which happen due to the surrounding conditions of the vehicle could be avoided if the driver was alerted to maintain a safe speed depending upon the realtime conditions.
 
-Problem is to find out the probability of occurrence of an accident and the severity of it, based on the factors like weather, Road condition, Light condition, Address type(Intersection, Block, Alley). These features would be used to create a classifier that would classify the severity of an accident and gives the probability of the occurance of that accident.
+Problem is to find out the probability of occurrence of an accident and the severity of it, based on the factors like weather, Road condition, Lighting condition, Address type(Intersection, Block, Alley). These features would be used to create a classifier that would classify the severity of an accident and gives the probability of the occurance of that accident.
 
 This model would help the drivers to maintain the safe speed while driving, depending upon the realtime conditions, keeping the probability and the severity at minimum. Depending upon the severity and the probability, the recommended speeds could be tuned to the conditions and then suggested to the drivers.
 
@@ -56,7 +56,7 @@ As you can see accidents are at peak in the morining and the eveining as that's 
 
 # Methodology:
 Classification is being used here to predict the severity of the accident(1,2) based on the one hot encodeded features.
-80 percennt of the samples are being used to train the model and split was done by train_test_split from sklearn library.
+80 percent of the samples are being used to train the model and split was done by train_test_split from sklearn library.
 DecisionTree Classsifier, Logistic Regression, RandomForestClassifier, Guassian Naive Bayes algorithms from sklearn library are being used here.
 
 DecisionTree Classsifier with a max depth of 3 - 15 was fitted with train data and max depth of 4 was most accurate in the provided range, with an accuracy of 67.1%
