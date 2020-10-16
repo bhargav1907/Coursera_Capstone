@@ -55,7 +55,7 @@ As you can see accidents are at peak in the morining and the eveining as that's 
 
 
 # Methodology:
-Classification is being used here to predict the severity of the accident(1,2) based on the one hot encodeded features.
+Classification is being used here to predict the severity of the accident, as the severity code was provided in 2 classes (1,2) based on the one hot encodeded features.
 80 percent of the samples are being used to train the model and split was done by train_test_split from sklearn library.
 DecisionTree Classifier, Logistic Regression, RandomForestClassifier, Gaussian Naive Bayes algorithms from sklearn library are being used here.
 
